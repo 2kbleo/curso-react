@@ -8,9 +8,11 @@ function LeoHola(props){
   return (
     <div>
       <td>
-       {props.propiedad}  
-      </td>  
+      <h2>{props.propiedad1}</h2>
+       <h3>{props.propiedad}</h3>
+       </td>
       </div>
+      
   )
 
 }
@@ -19,11 +21,11 @@ function App() {
   return (
     <div className="App">
      <div>
-    Propiedades 
-    <LeoHola propiedad="1" /> 
-    <LeoHola propiedad="2" />
-    <LeoHola propiedad="25" />
-    <LeoHola propiedad="2" />
+    <h1>Propiedades</h1> 
+    <LeoHola propiedad="uno" propiedad1="pepito" /> 
+    <LeoHola propiedad="dos" />
+    <LeoHola propiedad="tres" />
+    <LeoHola propiedad="cuatro" />
     <LeoHola />
      </div>
     </div>
